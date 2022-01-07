@@ -1,0 +1,13 @@
+.lead {
+  max-width: 984px;
+  margin: auto;
+  display: grid;
+  outline: 1px solid red;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}

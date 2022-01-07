@@ -1,0 +1,19 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 48px 40px;
+  grid-template-rows: max-content 1fr;
+  max-width: 984px;
+  margin: auto;
+  outline: 1px solid red;
+}
+
+.place > div, p {
+  outline: red 1px solid;
+}
+
+@media(max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+}
