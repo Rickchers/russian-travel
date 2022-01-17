@@ -2,7 +2,7 @@
   display: grid;
   margin: auto;
   width: 100%;
-  padding: 0 48px 92px;
+  padding: 92px 48px;
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   /*grid-template-rows: minmax(min-content, max-content);*/
   grid-gap: 16px;
@@ -21,14 +21,14 @@
   .photo-grid {
     width: 100%;
     grid-gap: 16px;
-    padding: 0 24px 88px;
+    padding: 88px 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid {
     width: 100%;
-    padding: 0 16px 64px;
+    padding: 64px 16px;
     grid-row-gap: 12px;
   }
 } 
