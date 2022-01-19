@@ -1,18 +1,6 @@
 .root {
-  font-family: 'Inter', Arial, sans-serif;
-  
   max-width: 1280px;
   min-width: 320px;
   margin: auto;
-  background-color: #2A2C2F;
-  outline: 1px solid grey;
-
-  
-  
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;  
+  background-color: #2A2C2F;  
 }
