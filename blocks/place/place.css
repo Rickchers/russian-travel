@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 1280px) {
   .place {
-    padding: 0 148px; 
+    padding: 0 148px;
     column-gap: 40px;
     row-gap: 48px;
     grid-template-columns: minmax(440px, 460px) 1fr;
