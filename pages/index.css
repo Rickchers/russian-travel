@@ -1,9 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
-@import url(../blocks/root/fonts.css);
+
+
+@import url(../blocks/fonts/fonts.css);
 
 /*block page*/
 @import url(../blocks/page/page.css);
+
+/*block fade-out*/
+@import url(../blocks/fade-out/fade-out.css);
 
 
 /*block header*/
@@ -25,7 +30,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_span-accent/intro__list-row_span-accent.css);
+@import url(../blocks/intro/__list-row/_span-accent/intro__list-row_span-accent.css);
 
 /*block photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);

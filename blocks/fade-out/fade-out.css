@@ -1,0 +1,4 @@
+.fade-out:hover {
+  opacity: 0.8;
+  transition: opacity .25s linear .05s;
+} 
